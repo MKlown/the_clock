@@ -77,7 +77,7 @@ Simply use build.sh bash script.<br>
 Maybe read its content before executing anything stupid.
 
 ## Requirements
-* termobox2 - library available within the sources and proposed to be compiled within the bin.
+* termobox2 - library available within the sources and proposed to be embedded within the clock binary during compilation.
 * libc - normally installed on Linux by default
 * zig - indeed since it is dev using it.
 <br>
