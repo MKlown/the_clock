@@ -16,7 +16,7 @@ tty-clock sucks.<br>
 Used in hyprland, it came with a big lag, the time for the window to finish its move + another couple of ms. yay -R then...<br>
 I tried a couple more to say the least. All were borring. Bloated. Ugly... depends.<br>
 <br>
-<p align="center">
+```zsh
                     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⣀⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
                     ⠀⠀⠀⠀⠀⠀⠀⢀⣠⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⣄⡀⠀⠀⠀⠀⠀⠀⠀
                     ⠀⠀⠀⠀⠀⠀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⠀⠀⠀⠀⠀⠀
@@ -32,10 +32,11 @@ I tried a couple more to say the least. All were borring. Bloated. Ugly... depen
                     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
                     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
                     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠛⠛⠛⠛⠛⠛⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+```
 </p>
 <br>
 The clock included in ly-dm is just great.<br>
-It use termabox2 instead of ncurses. Modern, lighter...<br>
+It use termbox2 instead of ncurses. Modern, lighter...<br>
 Thanks to open-source, the clock could just be dumped from the entire greeter code and simplified to its simple expected usage. With a refactored main, indeed.<br>
 So here it is.<br>
 Thanks to the person who developed it in the first place.<br>
@@ -45,6 +46,7 @@ https://github.com/fairyglade/ly => https://codeberg.org/AnErrupTion/ly
 
 ## License
 Do whatever<br>
+```zsh
 ⠀⠀⠀⠀⠀⠀⠀⢀⣀⣠⠶⠒⠒⠲⢤⡤⠚⠓⠒⠢⠤⣄⡀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⣠⣶⣿⣿⠃⠀⢀⣐⣤⡀⠙⠢⣄⡀⠀⠀⠉⠛⠦⡀⠀⠀⠀⠀⠀
 ⢀⡴⢛⡋⠛⢻⣿⣿⡟⠀⢰⣯⠀⠀⠈⠓⢤⣀⠉⠓⠶⠤⣤⡄⠬⠦⣤⡀⠀⠀
@@ -59,7 +61,7 @@ Do whatever<br>
 ⠀⠀⠀⠀⠘⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣈⡑⠦⣿⣉⡞⢀⡇⠀
 ⠀⠀⠀⠀⠀⠈⠻⢦⣄⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣉⡷⠦⠤⠴⠟⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠙⠛⠒⠶⠶⢤⣤⣤⡤⠶⠚⠁⠀⠀⠀⠀⠀⠀⠀
-
+```
 ## Maintainance
 I do not intend to change anything at the moment and would do it only if I need something else. I have very little time for the clock.<br>
 Maybe I'll add some little seconds on its right using some nerd font.
@@ -77,7 +79,7 @@ Simply use build.sh bash script.<br>
 Maybe read its content before executing anything stupid.
 
 ## Requirements
-* termobox2 - library available within the sources and proposed to be embedded within the clock binary during compilation.
+* termbox2 - library available within the sources and proposed to be embedded within the clock binary during compilation.
 * libc - normally installed on Linux by default
 * zig - indeed since it is dev using it.
 <br>
