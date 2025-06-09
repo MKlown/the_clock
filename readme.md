@@ -9,9 +9,8 @@
 ```
 \* This ascii is not really representative in github but a copy/paste in your term should give you an idea. 
 Rendering is like below in a modern term:
-<p style="margin-left:30px;">
-<img src="the_clock.png" alt="the_clock_screenshot">
-</p>
+<br>
+![the_clock_screenshot](the_clock.png)
 <br>
 tty-clock sucks.<br>
 Used in hyprland, it came with a big lag, the time for the window to finish its move + another couple of ms. yay -R then...<br>
