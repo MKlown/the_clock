@@ -8,10 +8,10 @@
                         ▓▓▓▓▓ ▓▓▓▓▓        ▓▓▓▓▓ ▓▓▓▓▓
 ```
 \* This ascii is not really representative in github but a copy/paste in your term should give you an idea. 
-Rendering is like below in a modern term:
-<br>
+Rendering is like below in a modern term:<br>
 ![the_clock_screenshot](the_clock.png)
 <br>
+
 tty-clock sucks.<br>
 Used in hyprland, it came with a big lag, the time for the window to finish its move + another couple of ms. yay -R then...<br>
 I tried a couple more to say the least. All were borring. Bloated. Ugly... depends.<br>
