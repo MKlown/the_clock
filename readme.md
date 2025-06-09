@@ -17,6 +17,7 @@ Used in hyprland, it came with a big lag, the time for the window to finish its 
 I tried a couple more to say the least. All were borring. Bloated. Ugly... depends.<br>
 <br>
 ```zsh
+
                     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⣀⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
                     ⠀⠀⠀⠀⠀⠀⠀⢀⣠⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⣄⡀⠀⠀⠀⠀⠀⠀⠀
                     ⠀⠀⠀⠀⠀⠀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⠀⠀⠀⠀⠀⠀
@@ -33,7 +34,6 @@ I tried a couple more to say the least. All were borring. Bloated. Ugly... depen
                     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
                     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠛⠛⠛⠛⠛⠛⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ```
-</p>
 <br>
 The clock included in ly-dm is just great.<br>
 It use termbox2 instead of ncurses. Modern, lighter...<br>
