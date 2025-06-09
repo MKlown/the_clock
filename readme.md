@@ -12,29 +12,31 @@ Rendering is like below in a modern term.
 <p align="center">
 <img src="the_clock.png" alt="the_clock_screenshot">
 </p>
+<br>
 tty-clock sucks.<br>
 Used in hyprland, it came with a big lag, the time for the window to finish its move + another couple of ms. yay -R then...<br>
 I tried a couple more to say the least. All were borring. Bloated. Ugly... depends.<br>
 <br>
+
 ```zsh
 
-                    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⣀⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-                    ⠀⠀⠀⠀⠀⠀⠀⢀⣠⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⣄⡀⠀⠀⠀⠀⠀⠀⠀
-                    ⠀⠀⠀⠀⠀⠀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⠀⠀⠀⠀⠀⠀
-                    ⠀⠀⠀⠀⢀⣾⠟⠛⢉⣁⣀⠉⠉⢛⣿⣿⡛⠉⠁⣀⣉⡉⠛⢿⣷⡀⠀⠀⠀⠀
-                    ⠀⠀⠀⠀⣾⣿⣷⣾⠟⠋⣡⣴⣾⣿⣿⣿⣿⣷⣦⣈⠙⠻⣷⣾⣿⣷⠀⠀⠀⠀
-                    ⠀⠀⠀⢀⣿⣿⣿⣿⣶⣿⣿⣿⡿⠿⠿⠿⢿⣿⣿⣿⣿⣾⣿⣿⣿⣿⡄⠀⠀⠀
-                    ⠀⠀⠀⢸⣿⣿⣿⡿⠛⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠿⣿⣿⣿⣿⡇⠀⠀⠀
-                    ⠀⠀⠀⠘⣿⡿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⣿⣿⠃⠀⠀⠀
-                    ⠀⠀⠀⠀⢿⡇⠀⠀⢀⣠⣤⣶⣶⣶⣶⣶⣶⣶⣶⣦⣄⡀⠀⠀⢸⡿⠀⠀⠀⠀
-                    ⠀⠀⠀⠀⠈⢿⣦⣄⣈⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⠟⢉⣁⣤⣴⡿⠁⠀⠀⠀⠀
-                    ⠀⠀⠀⠀⠀⠀⠻⣿⣿⣷⡄⢹⣿⣿⣿⣿⣿⣿⡏⢰⣿⣿⣿⠟⠀⠀⠀⠀⠀⠀
-                    ⠀⠀⠀⠀⠀⠀⠀⠈⠙⠿⡇⢸⣿⣿⣿⣿⣿⣿⡇⢸⠿⠋⠁⠀⠀⠀⠀⠀⠀⠀
-                    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-                    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-                    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠛⠛⠛⠛⠛⠛⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⣀⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                        ⠀⠀⠀⠀⠀⠀⠀⢀⣠⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⣄⡀⠀⠀⠀⠀⠀⠀⠀
+                        ⠀⠀⠀⠀⠀⠀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⠀⠀⠀⠀⠀⠀
+                        ⠀⠀⠀⠀⢀⣾⠟⠛⢉⣁⣀⠉⠉⢛⣿⣿⡛⠉⠁⣀⣉⡉⠛⢿⣷⡀⠀⠀⠀⠀
+                        ⠀⠀⠀⠀⣾⣿⣷⣾⠟⠋⣡⣴⣾⣿⣿⣿⣿⣷⣦⣈⠙⠻⣷⣾⣿⣷⠀⠀⠀⠀
+                        ⠀⠀⠀⢀⣿⣿⣿⣿⣶⣿⣿⣿⡿⠿⠿⠿⢿⣿⣿⣿⣿⣾⣿⣿⣿⣿⡄⠀⠀⠀
+                        ⠀⠀⠀⢸⣿⣿⣿⡿⠛⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠿⣿⣿⣿⣿⡇⠀⠀⠀
+                        ⠀⠀⠀⠘⣿⡿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⣿⣿⠃⠀⠀⠀
+                        ⠀⠀⠀⠀⢿⡇⠀⠀⢀⣠⣤⣶⣶⣶⣶⣶⣶⣶⣶⣦⣄⡀⠀⠀⢸⡿⠀⠀⠀⠀
+                        ⠀⠀⠀⠀⠈⢿⣦⣄⣈⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⠟⢉⣁⣤⣴⡿⠁⠀⠀⠀⠀
+                        ⠀⠀⠀⠀⠀⠀⠻⣿⣿⣷⡄⢹⣿⣿⣿⣿⣿⣿⡏⢰⣿⣿⣿⠟⠀⠀⠀⠀⠀⠀
+                        ⠀⠀⠀⠀⠀⠀⠀⠈⠙⠿⡇⢸⣿⣿⣿⣿⣿⣿⡇⢸⠿⠋⠁⠀⠀⠀⠀⠀⠀⠀
+                        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠛⠛⠛⠛⠛⠛⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ```
-<br>
+
 The clock included in ly-dm is just great.<br>
 It use termbox2 instead of ncurses. Modern, lighter...<br>
 Thanks to open-source, the clock could just be dumped from the entire greeter code and simplified to its simple expected usage. With a refactored main, indeed.<br>
@@ -67,7 +69,7 @@ I do not intend to change anything at the moment and would do it only if I need 
 Maybe I'll add some little seconds on its right using some nerd font.
 
 ## Compile
-```zif
+```zig
    .----.
    |Z>_ |
  __|____|__
