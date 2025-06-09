@@ -8,8 +8,8 @@
                         ▓▓▓▓▓ ▓▓▓▓▓        ▓▓▓▓▓ ▓▓▓▓▓
 ```
 \* This ascii is not really representative in github but a copy/paste in your term should give you an idea. 
-Rendering is like below in a modern term.
-<p align="center" style="margin-right:30px;">
+Rendering is like below in a modern term:
+<p style="margin-left:30px;">
 <img src="the_clock.png" alt="the_clock_screenshot">
 </p>
 <br>
